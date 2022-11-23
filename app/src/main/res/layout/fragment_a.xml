@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#8C98DC"
+    tools:context=".FragmentA" >
+
+    <EditText
+        android:id="@+id/editInformacion"
+        android:layout_width="330dp"
+        android:layout_height="73dp"
+        android:translationX="40dp"
+        android:translationY="60dp"
+        android:inputType="textPersonName"
+        android:text="Informacion" />
+
+    <Button
+        android:id="@+id/buttonEnviar"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:translationX="120dp"
+        android:translationY="80dp"
+        android:text="EnviarAtoB" />
+</LinearLayout>
